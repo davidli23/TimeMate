@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TimeMate</title>
+	<link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<p class="first_p">Boost your productivity by blocking out distracting websites! Enter how long you want to stay focused and which websites you feel distract you the most. I'll help you keep your attention on the things that matter.
+	</p>
+	<div class="row">
+		<div class="column">
+			<label for="number">Session length (in minutes):</label><br>
+		  	<input type="number" id="time"><br><br>
+		 	<label for="text">Websites you want to block (ex. facebook.com):</label>
+			<div id="container"></div>
+			<button class = "add_button" id="add_button">+</button>
+		</div>
+		<div class="column_right">
+			<p> <b>Warning</b>: once you press Start you're committing to staying away from these websites until your session is over...
+			</p>
+			<button id="start_button">Start!</button>
+			<script src="inputs.js"></script>
+		</div>
+	</div>
+
+</body>
+</html>
